@@ -1,0 +1,41 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:#000;
+}
+main{
+    text-align: center;
+}
+h1{
+    margin-bottom: 2rem;
+    color: antiquewhite;
+}
+
+#card{
+    width: 17rem;
+    height: 15rem;
+    /* background-color: #000; */
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#gen{
+    width: 30%;
+    height:2rem;
+    background-color:darkgray;
+    border-radius: 2rem;
+    color:#000;
+    border: 2px solid #fff;
+    box-shadow:4px 2px  5px;
+}
+i{
+    color: #000;
+}
+#copy-btn:active{
+    transform: scale(90%);
+}
